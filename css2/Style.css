@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+.contenedortitulo img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.section1{
+    padding-left: 25%;
+}
+.section2{
+    padding-right: 25%;
+}
+
+.contenedortitulo h1{
+    position: absolute;
+    top: 19%;
+    text-align: center;
+    transform: translate(-50%, -50%); 
+    font-size: 270%;
+    padding-left: 47%;
+}
+
+
+.section1_1{
+    display: flex;
+}
+
+
+.section1_1 h1{
+
+    font-size: 220%;
+    margin-right: 11%;
+}
+
+.section1_1_1 p{
+
+    font-size: 170%;
+    position: absolute;
+    top: 85%;
+    transform: translate(-50%, -50%); 
+    font-size: 170%;
+    left: 35%;
+    right: 46%;
+
+}
+
+.section1_1 img{
+
+    width: 50%;
+    height: 50%;
+}
+
+.section2_2 {
+    background-color: rgba(115, 247, 115, 0.898);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.section2_2 h1 {
+    font-size: 240%;
+
+}
+
+.section2_2 img {
+    width: 17%;
+    height: 17%;
+    margin: 1%;
+    padding-top: 5%;
+}
+
+.section3_1{
+    display: flex;
+}
+
+.section3_1 img{
+    width: 50%;
+    height: 50%;
+    padding-top: 7%;
+}
+
+.section3_1 h1{
+
+    font-size: 220%;
+    margin-left: 6%;
+    margin-right: 13%;
+
+}
+
+.section3_1 p{
+    font-size: 170%;
+    position: absolute;
+    top: 168%;
+    transform: translate(-50%, -50%); 
+    font-size: 170%;
+    left: 63.7%;
+    right: 15%;
+}
+s
+.imagenes {
+    display: flex;
+    justify-content: space-between; /* Distribuirá el espacio entre las imágenes */
+}
+
+.imagenes img {
+    margin-bottom: 0; /* Elimina el margen inferior */
+    width: 25%;
+    height: 24.2%;
+    float: left;
+}
+#imagen1 {
+    font-size: 170%;
+    position: absolute;
+    top: 114%;
+    transform: translate(-50%, -50%); 
+    font-size: 140%;
+    left: 49.7%;
+    right: 16%;
+}
+
+#imagen2 {
+    font-size: 170%;
+    position: absolute;
+    top: 114%;
+    transform: translate(-50%, -50%); 
+    font-size: 140%;
+    left: 55.6%;
+    right: 16%;
+}
+#imagen3 {
+    font-size: 170%;
+    position: absolute;
+    top: 114%;
+    transform: translate(-50%, -50%); 
+    font-size: 140%;
+    left: 63%;
+    right: 16%;
+}
+
+#imagen4 {
+    font-size: 170%;
+    position: absolute;
+    top: 114%;
+    transform: translate(-50%, -50%); 
+    font-size: 140%;
+    left: 69.1%;
+    right: 16%;
+}
+.parteazul {
+    background-color: rgb(18, 196, 255); 
+    text-align: center; 
+    font-size: 260%;
+}
+
+.texto p{
+
+    margin-left: 9%;
+    margin-right: 11%;
+    padding-top: 25%;
+}
+
+
+.container2 {
+    display: flex;
+    background-color: rgb(6, 5, 5);
+    color: rgb(255, 255, 255);
+    padding-top: 3%;
+}
+
+.texto-izquierda2 {
+    flex: 1;
+    font-size: small;
+
+}
+
+.columna2 {
+    flex: 1;
+    margin-left: 30%;
+    font-size: small;
+}
+.columna4 {
+    flex: 1;
+    margin-left: 0%;
+    font-size: small;
+}
+
+@media screen and (max-width: 700px) {
+
+    .contenedortitulo h1{
+        position: absolute;
+        top: 10%;
+        text-align: center;
+        transform: translate(-50%, -50%); 
+        font-size: 150%;
+        padding-left: 47%;
+    }
+
+
+    .section1_1{
+        display: block;
+    }
+
+    .section1_1 h1{
+        font-size: 150%;
+        margin-left: 5%;
+    }
+    .section1_1 img{
+        margin-left: 10%;
+        width: 80%;
+        height: 80%;
+        padding-top: 50%;
+    }
+    .section1_1_1 p{
+
+        font-size: 170%;
+        position: absolute;
+        top: 46%;
+        transform: translate(-50%, -50%); 
+        font-size: 140%;
+        left: 44.1%;
+        right: 25%;
+    }
+
+    .section2_2 img {
+        width: 35%;
+        height: 45%;
+        margin: 5%;
+    }
+
+    #imagen1 {
+        position: absolute;
+        top: 114%;
+        transform: translate(-50%, -50%); 
+        font-size: 130%;
+        left: 49.7%;
+        right: 16%;
+    }
+    
+    #imagen2 {
+        position: absolute;
+        top: 114%;
+        transform: translate(-50%, -50%); 
+        font-size: 130%;
+        left: 62.9%;
+        right: 16%;
+    }
+    #imagen3 {
+        font-size: 130%;
+        position: absolute;
+        top: 136%;
+        transform: translate(-50%, -50%); 
+        left: 50.6%;
+        right: 16%;
+    }
+    
+    #imagen4 {
+        position: absolute;
+        top: 136.1%;
+        transform: translate(-50%, -50%); 
+        font-size: 130%;
+        left: 65%;
+        right: 16%;
+    }
+
+    .section3_1 img{
+        width: 95%;
+        height: 95%;
+    }
+
+    .section3_1{
+        display: block;
+    }
+
+    .section3_1 h1{
+
+        font-size: 150%;
+    }
+
+    .imagenes img {
+        margin-bottom: 0; /* Elimina el margen inferior */
+        width: 50%;
+        height: 24.2%;
+        float: left;
+    }
+
+    .parteazul {
+        background-color: rgb(18, 196, 255); 
+        text-align: center; 
+        font-size: 170%;
+
+    }
+    .texto p{
+
+        margin-left: 9%;
+        margin-right: 11%;
+
+    }
+    .imagenes {
+        display: block;
+        justify-content: space-between; /* Distribuirá el espacio entre las imágenes */
+        padding-top: 55%;
+    }
+
+    .section3_1 p{
+        position: absolute;
+        top: 210%;
+        transform: translate(-50%, -50%); 
+        font-size: 140%;
+        left: 50%;
+        right: 6%;
+    }
+
+        
+    .container2 {
+        display: block;
+        background-color: rgb(6, 5, 5);
+        color: rgb(255, 255, 255);
+        padding-top: 3%;
+    }
+
+    .texto-izquierda2 {
+        flex: 1;
+        font-size: small;
+
+    }
+
+    .columna2 {
+        font-size: small;
+    }
+    .columna4 {
+
+        font-size: small;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .contenedortitulo h1{
+        position: absolute;
+        top: 9%;
+        text-align: center;
+        transform: translate(-50%, -50%); 
+        font-size: 140%;
+        padding-left: 47%;
+    }
+}
